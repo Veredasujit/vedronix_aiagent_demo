@@ -27,4 +27,5 @@ COPY . .
 
 EXPOSE 8010
 
-CMD ["python", "smartflo_agent.py", "--transport", "twilio", "--host", "0.0.0.0", "--port", "8010"]
+CMD ["python", "webrtc/webrtc_agent.py", "--transport", "webrtc","--host", "0.0.0.0", "--port", "8010"]
+# CMD ["python", "smartflo_agent.py", "--transport", "twilio", "--host", "0.0.0.0", "--port", "8010"]
